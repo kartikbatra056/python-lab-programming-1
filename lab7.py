@@ -1,0 +1,16 @@
+
+my_list=list("")
+a=input("enter your name")
+my_list.append(a)
+b=input("enter roll no.")
+my_list.append(b)
+c=input("enter division")
+my_list.append(c)
+d=input("enter gr.no")
+my_list.append(d)
+e=input("enter Mobile no.")
+my_list.append(e)
+f=input("enter college  name")
+my_list.append(f)
+print(my_list)
+
