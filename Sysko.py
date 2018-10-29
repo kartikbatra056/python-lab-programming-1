@@ -11,9 +11,70 @@ while 1:
         msg1=("What  type you wanna eat,Choose a hotel ?")
         title1=("Craving something,Have Something.")
         choices1=["A1 Pizza","Smokin Joe's camp","Roll Bites"]
-        choice1=choicebox(msg1,title1,choices1)
+        choice1=buttonbox(msg1,title1,choices1)
         if choice1="A1 Pizza":
            msg10=("Select your meal.")
            title10=("A1 Pizza") 
-           choices10=["Veg cheese Pizza","Special veg  paneer cheese Pizza","Special veg  paneer cheese Pizza"]
-            
+           choices10=["veg cheese Pizza","Special veg  paneer cheese Pizza","Special veg cheese Pizza"]
+           choice10=buttonbox(msg10,title10,choices10)
+           if choice10=="veg cheese Pizza":
+              msg100=("Price is 90")
+              title100=("veg cheese Pizza")
+              choices100=["ORDER","CANCEL"]
+              choice100=buttonbox(msg100,title100,choices100)
+              if choice100=="ORDER":
+                     msg1000=("Enter promo code.")
+                     title1000=("Promo code")
+                     choice1000=enterbox(msg1000,title1000)
+                     if choice1000=="NEWS50":
+                           msgbox("You got 50% Off")
+                           sum=+45
+                     else:
+                        msgbox=("wrong Promo code")
+                        msg10000=("Are you sure you wanna Order.You will have to pay actual price.")
+                        title10000=("Be sure!")
+                        choices10000=["ORDER","CANCEL"]
+                        choice10000=buttonbox(msg10000,title10000,choices10000)
+                               if choice10000=="ORDER":
+                                     sum=+90
+           if choice10=="Special veg  paneer cheese Pizza":
+              msg100=("Price is 150")
+              title100=("Special veg  paneer cheese Pizza")
+              choices100=["ORDER","CANCEL"]
+              choice100=buttonbox(msg100,title100,choices100)
+              if choice100=="ORDER":
+                     msg1000=("Enter promo code.")
+                     title1000=("Promo code")
+                     choice1000=enterbox(msg1000,title1000)
+                     if choice1000=="NEWS50":
+                           msgbox("You got 50% Off")
+                           sum=+75
+                     else:
+                        msgbox=("wrong Promo code")
+                        msg10000=("Are you sure you wanna Order.You will have to pay actual price.")
+                        title10000=("Be sure!")
+                        choices10000=["ORDER","CANCEL"]
+                        choice10000=buttonbox(msg10000,title10000,choices10000)
+                               if choice10000=="ORDER":
+                                     sum=+150
+           if choice10=="Special veg cheese Pizza":
+              msg100=("Price is 120")
+              title100=("Special veg  cheese Pizza")
+              choices100=["ORDER","CANCEL"]
+              choice100=buttonbox(msg100,title100,choices100)
+              if choice100=="ORDER":
+                     msg1000=("Enter promo code.")
+                     title1000=("Promo code")
+                     choice1000=enterbox(msg1000,title1000)
+                     if choice1000=="NEWS50":
+                           msgbox("You got 50% Off")
+                           sum=+60
+                     else:
+                        msgbox=("wrong Promo code")
+                        msg10000=("Are you sure you wanna Order.You will have to pay actual price.")
+                        title10000=("Be sure!")
+                        choices10000=["ORDER","CANCEL"]
+                        choice10000=buttonbox(msg10000,title10000,choices10000)
+                               if choice10000=="ORDER":
+                                     sum=+120                     
+           
