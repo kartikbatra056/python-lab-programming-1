@@ -37,7 +37,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+90
-           if choice10=="Special veg  paneer cheese Pizza":
+           elif choice10=="Special veg  paneer cheese Pizza":
               msg100=("Price is 150")
               title100=("Special veg  paneer cheese Pizza")
               choices100=["ORDER","CANCEL"]
@@ -57,7 +57,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150
-           if choice10=="Special veg cheese Pizza":
+           elif choice10=="Special veg cheese Pizza":
               msg100=("Price is 120")
               title100=("Special veg  cheese Pizza")
               choices100=["ORDER","CANCEL"]
@@ -77,7 +77,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+120                     
-        if choice1="Smokin Joe's camp":
+        elif choice1="Smokin Joe's camp":
            msg10=("Select your meal.")
            title10=("Smokin Joe's camp") 
            choices10=["veg cheese Pizza","Special veg  paneer cheese Pizza","Special veg cheese Pizza"]
@@ -102,7 +102,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150
-           if choice10=="Special veg  paneer cheese Pizza":
+           elif choice10=="Special veg  paneer cheese Pizza":
               msg100=("Price is 210")
               title100=("Special veg  paneer cheese Pizza")
               choices100=["ORDER","CANCEL"]
@@ -122,7 +122,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+210
-           if choice10=="Special veg cheese Pizza":
+           elif choice10=="Special veg cheese Pizza":
               msg100=("Price is 150")
               title100=("Special veg  cheese Pizza")
               choices100=["ORDER","CANCEL"]
@@ -142,7 +142,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150                     
-        if choice1="Roll Bites":
+        elif choice1="Roll Bites":
            msg10=("Select your meal.")
            title10=("Roll Bites") 
            choices10=["veg cheese Pizza","Special veg  paneer cheese Pizza","Special veg cheese Pizza"]
@@ -167,7 +167,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+110
-           if choice10=="Special veg  paneer cheese Pizza":
+           elif choice10=="Special veg  paneer cheese Pizza":
               msg100=("Price is 100")
               title100=("Special veg  paneer cheese Pizza")
               choices100=["ORDER","CANCEL"]
@@ -187,7 +187,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+100
-           if choice10=="Special veg cheese Pizza":
+           elif choice10=="Special veg cheese Pizza":
               msg100=("Price is 120")
               title100=("Special veg  cheese Pizza")
               choices100=["ORDER","CANCEL"]
@@ -207,7 +207,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+120                     
-  if choice=="Chinese":
+  elif choice=="Chinese":
         msg1=("What  type you wanna eat,Choose a hotel ?")
         title1=("Craving something,Have Something.")
         choices1=["The jumbo food","Kimling Kitchen","Sky touch Chinese"]
@@ -237,7 +237,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+90
-           if choice10=="veg Schezwan rice":
+           elif choice10=="veg Schezwan rice":
               msg100=("Price is 150")
               title100=("veg Schezwan rice")
               choices100=["ORDER","CANCEL"]
@@ -257,7 +257,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150
-           if choice10=="Chicken lollipop masala":
+           elif choice10=="Chicken lollipop masala":
               msg100=("Price is 120")
               title100=("Chicken lollipop masala")
               choices100=["ORDER","CANCEL"]
@@ -277,7 +277,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+120                     
-        if choice1="Kimling Kitchen":
+        elif choice1="Kimling Kitchen":
            msg10=("Select your meal.")
            title10=("Kimling Kitchen") 
            choices10=["Chicken hakka noodle","veg Schezwan rice","Chicken lollipop masala"]
@@ -302,7 +302,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150
-           if choice10=="veg Schezwan rice":
+           elif choice10=="veg Schezwan rice":
               msg100=("Price is 210")
               title100=("veg Schezwan rice")
               choices100=["ORDER","CANCEL"]
@@ -322,7 +322,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+210
-           if choice10=="Chicken lollipop masala":
+           elif choice10=="Chicken lollipop masala":
               msg100=("Price is 150")
               title100=("Chicken lollipop masala")
               choices100=["ORDER","CANCEL"]
@@ -342,7 +342,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150                     
-        if choice1="Sky touch Chinese":
+        elif choice1="Sky touch Chinese":
            msg10=("Select your meal.")
            title10=("Sky touch Chinese") 
            choices10=["Chicken hakka noodle","veg Schezwan rice","Chicken lollipop masala"]
@@ -367,7 +367,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+110
-           if choice10=="veg Schezwan rice":
+           elif choice10=="veg Schezwan rice":
               msg100=("Price is 100")
               title100=("veg Schezwan rice")
               choices100=["ORDER","CANCEL"]
@@ -387,7 +387,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+100
-           if choice10=="Chicken lollipop masala":
+           elif choice10=="Chicken lollipop masala":
               msg100=("Price is 120")
               title100=("Chicken lollipop masala")
               choices100=["ORDER","CANCEL"]
@@ -407,7 +407,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+120                     
-  if choice=="Indian":
+  elif choice=="Indian":
         msg1=("What  type you wanna eat,Choose a hotel ?")
         title1=("Craving something,Have Something.")
         choices1=["Aangan veg","Bassuri","Agra restaurant"]
@@ -417,7 +417,7 @@ while 1:
            title10=("Aangan veg") 
            choices10=["Chicken tikka Masala","paneer tikka masala","Chicken pulao"]
            choice10=buttonbox(msg10,title10,choices10)
-           if choice10=="Chicken tikka Masala":
+           elif choice10=="Chicken tikka Masala":
               msg100=("Price is 90")
               title100=("Chicken tikka Masala")
               choices100=["ORDER","CANCEL"]
@@ -437,7 +437,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+90
-           if choice10=="paneer tikka masala":
+           elif choice10=="paneer tikka masala":
               msg100=("Price is 150")
               title100=("paneer tikka masala")
               choices100=["ORDER","CANCEL"]
@@ -457,7 +457,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150
-           if choice10=="Chicken pulao":
+           elif choice10=="Chicken pulao":
               msg100=("Price is 120")
               title100=("Chicken pulao")
               choices100=["ORDER","CANCEL"]
@@ -477,7 +477,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+120                     
-        if choice1="Bassuri":
+        elif choice1="Bassuri":
            msg10=("Select your meal.")
            title10=("Bassuri") 
            choices10=["Chicken tikka Masala","paneer tikka masala","Chicken pulao"]
@@ -502,7 +502,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150
-           if choice10=="paneer tikka masala":
+           elif choice10=="paneer tikka masala":
               msg100=("Price is 210")
               title100=("paneer tikka masala")
               choices100=["ORDER","CANCEL"]
@@ -522,7 +522,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+210
-           if choice10=="Chicken pulao":
+           elif choice10=="Chicken pulao":
               msg100=("Price is 150")
               title100=("Chicken pulao")
               choices100=["ORDER","CANCEL"]
@@ -542,7 +542,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150                     
-        if choice1="Agra restaurant":
+        elif choice1="Agra restaurant":
            msg10=("Select your meal.")
            title10=("Agra restaurant") 
            choices10=["Chicken tikka Masala","paneer tikka masala","Chicken pulao"]
@@ -567,7 +567,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+110
-           if choice10=="paneer tikka masala":
+           elif choice10=="paneer tikka masala":
               msg100=("Price is 100")
               title100=("paneer tikka masala")
               choices100=["ORDER","CANCEL"]
@@ -587,7 +587,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+100
-           if choice10=="Chicken pulao":
+           elif choice10=="Chicken pulao":
               msg100=("Price is 120")
               title100=("Chicken pulao")
               choices100=["ORDER","CANCEL"]
@@ -607,7 +607,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+120                     
-  if choice=="Italian":
+  elif choice=="Italian":
         msg1=("What  type you wanna eat,Choose a hotel ?")
         title1=("Craving something,Have Something.")
         choices1=["Al saba mac mino way","cafe bistro","Jake n lerry"]
@@ -637,7 +637,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+90
-           if choice10=="Arrabiata pasta":
+           elif choice10=="Arrabiata pasta":
               msg100=("Price is 150")
               title100=("Arrabiata pasta")
               choices100=["ORDER","CANCEL"]
@@ -657,7 +657,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150
-           if choice10=="Bistro pasta":
+           elif choice10=="Bistro pasta":
               msg100=("Price is 120")
               title100=("Bistro pasta")
               choices100=["ORDER","CANCEL"]
@@ -677,7 +677,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+120                     
-        if choice1="cafe bistro":
+        elif choice1="cafe bistro":
            msg10=("Select your meal.")
            title10=("cafe bistro") 
            choices10=["Alfredo pasta","Arrabiata pasta","Bistro pasta"]
@@ -702,7 +702,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150
-           if choice10=="Arrabiata pasta":
+           elif choice10=="Arrabiata pasta":
               msg100=("Price is 210")
               title100=("Arrabiata pasta")
               choices100=["ORDER","CANCEL"]
@@ -722,7 +722,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+210
-           if choice10=="Bistro pasta":
+           elif choice10=="Bistro pasta":
               msg100=("Price is 150")
               title100=("Bistro pasta")
               choices100=["ORDER","CANCEL"]
@@ -742,7 +742,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+150                     
-        if choice1="Jake n lerry":
+        elif choice1="Jake n lerry":
            msg10=("Select your meal.")
            title10=("Jake n lerry") 
            choices10=["Alfredo pasta","Arrabiata pasta","Bistro pasta"]
@@ -767,7 +767,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+110
-           if choice10=="Arrabiata pasta":
+           elif choice10=="Arrabiata pasta":
               msg100=("Price is 100")
               title100=("Arrabiata pasta")
               choices100=["ORDER","CANCEL"]
@@ -787,7 +787,7 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+100
-           if choice10=="Bistro pasta":
+           elif choice10=="Bistro pasta":
               msg100=("Price is 120")
               title100=("Bistro pasta")
               choices100=["ORDER","CANCEL"]
@@ -807,4 +807,15 @@ while 1:
                         choice10000=buttonbox(msg10000,title10000,choices10000)
                                if choice10000=="ORDER":
                                      sum=+120                     
-  if
+  msg = "Do you want to continue?"
+  title = "Please Confirm"
+  if ccbox(msg, title):     # show a Continue/Cancel dialog
+        pass  # user chose Continue
+  else:
+	   msg="Your total is:"+str(sum)
+	   title="BILL DESK"
+	   textbox(msg,title)
+     sys.exit(0)  
+    
+ 
+
